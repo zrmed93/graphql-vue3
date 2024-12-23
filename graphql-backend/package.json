@@ -1,0 +1,29 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:products": "node services/products/server.js",
+    "start:categories": "node services/categories/server.js",
+    "start:gateway": "node gateway/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/client": "^3.12.3",
+    "@apollo/composition": "^2.9.3",
+    "@apollo/gateway": "^2.9.3",
+    "@apollo/server": "^4.11.2",
+    "@apollo/subgraph": "^2.9.3",
+    "@vue/apollo-composable": "^4.2.1",
+    "autoprefixer": "^10.4.20",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "graphql": "^16.10.0",
+    "graphql-tag": "^2.12.6",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "graphql-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.12.3",
+    "@types/lodash": "^4.14.195",
+    "@types/node": "^20.0.0",
+    "@vue/apollo-composable": "^4.2.1",
+    "autoprefixer": "^10.4.20",
+    "graphql": "^16.10.0",
+    "lodash": "^4.17.21",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.0.0",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.3",
+    "vue-tsc": "^1.8.0"
+  }
+}
